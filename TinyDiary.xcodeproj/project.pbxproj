@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93D8DCBA2831F1A50046AAF2 /* TinyDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8DCB92831F1A50046AAF2 /* TinyDiaryApp.swift */; };
+		93D8DCBC2831F1A50046AAF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8DCBB2831F1A50046AAF2 /* ContentView.swift */; };
+		93D8DCBE2831F1A60046AAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D8DCBD2831F1A60046AAF2 /* Assets.xcassets */; };
+		93D8DCC12831F1A60046AAF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D8DCC02831F1A60046AAF2 /* Preview Assets.xcassets */; };
+		93D8DCCB2831F1A60046AAF2 /* TinyDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8DCCA2831F1A60046AAF2 /* TinyDiaryTests.swift */; };
+		93D8DCD52831F1A60046AAF2 /* TinyDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8DCD42831F1A60046AAF2 /* TinyDiaryUITests.swift */; };
+		93D8DCD72831F1A60046AAF2 /* TinyDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8DCD62831F1A60046AAF2 /* TinyDiaryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93D8DCC72831F1A60046AAF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D8DCAE2831F1A50046AAF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D8DCB52831F1A50046AAF2;
+			remoteInfo = TinyDiary;
+		};
+		93D8DCD12831F1A60046AAF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D8DCAE2831F1A50046AAF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D8DCB52831F1A50046AAF2;
+			remoteInfo = TinyDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93D8DCB62831F1A50046AAF2 /* TinyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D8DCB92831F1A50046AAF2 /* TinyDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyDiaryApp.swift; sourceTree = "<group>"; };
+		93D8DCBB2831F1A50046AAF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93D8DCBD2831F1A60046AAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93D8DCC02831F1A60046AAF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93D8DCC62831F1A60046AAF2 /* TinyDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D8DCCA2831F1A60046AAF2 /* TinyDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyDiaryTests.swift; sourceTree = "<group>"; };
+		93D8DCD02831F1A60046AAF2 /* TinyDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D8DCD42831F1A60046AAF2 /* TinyDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyDiaryUITests.swift; sourceTree = "<group>"; };
+		93D8DCD62831F1A60046AAF2 /* TinyDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D8DCB32831F1A50046AAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D8DCC32831F1A60046AAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D8DCCD2831F1A60046AAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93D8DCAD2831F1A50046AAF2 = {
+			isa = PBXGroup;
+			children = (
+				93D8DCB82831F1A50046AAF2 /* TinyDiary */,
+				93D8DCC92831F1A60046AAF2 /* TinyDiaryTests */,
+				93D8DCD32831F1A60046AAF2 /* TinyDiaryUITests */,
+				93D8DCB72831F1A50046AAF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93D8DCB72831F1A50046AAF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D8DCB62831F1A50046AAF2 /* TinyDiary.app */,
+				93D8DCC62831F1A60046AAF2 /* TinyDiaryTests.xctest */,
+				93D8DCD02831F1A60046AAF2 /* TinyDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D8DCB82831F1A50046AAF2 /* TinyDiary */ = {
+			isa = PBXGroup;
+			children = (
+				93D8DCB92831F1A50046AAF2 /* TinyDiaryApp.swift */,
+				93D8DCBB2831F1A50046AAF2 /* ContentView.swift */,
+				93D8DCBD2831F1A60046AAF2 /* Assets.xcassets */,
+				93D8DCBF2831F1A60046AAF2 /* Preview Content */,
+			);
+			path = TinyDiary;
+			sourceTree = "<group>";
+		};
+		93D8DCBF2831F1A60046AAF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93D8DCC02831F1A60046AAF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93D8DCC92831F1A60046AAF2 /* TinyDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				93D8DCCA2831F1A60046AAF2 /* TinyDiaryTests.swift */,
+			);
+			path = TinyDiaryTests;
+			sourceTree = "<group>";
+		};
+		93D8DCD32831F1A60046AAF2 /* TinyDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93D8DCD42831F1A60046AAF2 /* TinyDiaryUITests.swift */,
+				93D8DCD62831F1A60046AAF2 /* TinyDiaryUITestsLaunchTests.swift */,
+			);
+			path = TinyDiaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D8DCB52831F1A50046AAF2 /* TinyDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D8DCDA2831F1A60046AAF2 /* Build configuration list for PBXNativeTarget "TinyDiary" */;
+			buildPhases = (
+				93D8DCB22831F1A50046AAF2 /* Sources */,
+				93D8DCB32831F1A50046AAF2 /* Frameworks */,
+				93D8DCB42831F1A50046AAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyDiary;
+			productName = TinyDiary;
+			productReference = 93D8DCB62831F1A50046AAF2 /* TinyDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D8DCC52831F1A60046AAF2 /* TinyDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D8DCDD2831F1A60046AAF2 /* Build configuration list for PBXNativeTarget "TinyDiaryTests" */;
+			buildPhases = (
+				93D8DCC22831F1A60046AAF2 /* Sources */,
+				93D8DCC32831F1A60046AAF2 /* Frameworks */,
+				93D8DCC42831F1A60046AAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D8DCC82831F1A60046AAF2 /* PBXTargetDependency */,
+			);
+			name = TinyDiaryTests;
+			productName = TinyDiaryTests;
+			productReference = 93D8DCC62831F1A60046AAF2 /* TinyDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93D8DCCF2831F1A60046AAF2 /* TinyDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D8DCE02831F1A60046AAF2 /* Build configuration list for PBXNativeTarget "TinyDiaryUITests" */;
+			buildPhases = (
+				93D8DCCC2831F1A60046AAF2 /* Sources */,
+				93D8DCCD2831F1A60046AAF2 /* Frameworks */,
+				93D8DCCE2831F1A60046AAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D8DCD22831F1A60046AAF2 /* PBXTargetDependency */,
+			);
+			name = TinyDiaryUITests;
+			productName = TinyDiaryUITests;
+			productReference = 93D8DCD02831F1A60046AAF2 /* TinyDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D8DCAE2831F1A50046AAF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					93D8DCB52831F1A50046AAF2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					93D8DCC52831F1A60046AAF2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 93D8DCB52831F1A50046AAF2;
+					};
+					93D8DCCF2831F1A60046AAF2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 93D8DCB52831F1A50046AAF2;
+					};
+				};
+			};
+			buildConfigurationList = 93D8DCB12831F1A50046AAF2 /* Build configuration list for PBXProject "TinyDiary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D8DCAD2831F1A50046AAF2;
+			productRefGroup = 93D8DCB72831F1A50046AAF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D8DCB52831F1A50046AAF2 /* TinyDiary */,
+				93D8DCC52831F1A60046AAF2 /* TinyDiaryTests */,
+				93D8DCCF2831F1A60046AAF2 /* TinyDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D8DCB42831F1A50046AAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D8DCC12831F1A60046AAF2 /* Preview Assets.xcassets in Resources */,
+				93D8DCBE2831F1A60046AAF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D8DCC42831F1A60046AAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D8DCCE2831F1A60046AAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D8DCB22831F1A50046AAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D8DCBC2831F1A50046AAF2 /* ContentView.swift in Sources */,
+				93D8DCBA2831F1A50046AAF2 /* TinyDiaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D8DCC22831F1A60046AAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D8DCCB2831F1A60046AAF2 /* TinyDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D8DCCC2831F1A60046AAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D8DCD72831F1A60046AAF2 /* TinyDiaryUITestsLaunchTests.swift in Sources */,
+				93D8DCD52831F1A60046AAF2 /* TinyDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93D8DCC82831F1A60046AAF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D8DCB52831F1A50046AAF2 /* TinyDiary */;
+			targetProxy = 93D8DCC72831F1A60046AAF2 /* PBXContainerItemProxy */;
+		};
+		93D8DCD22831F1A60046AAF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D8DCB52831F1A50046AAF2 /* TinyDiary */;
+			targetProxy = 93D8DCD12831F1A60046AAF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93D8DCD82831F1A60046AAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93D8DCD92831F1A60046AAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D8DCDB2831F1A60046AAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = 56V747V83R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mercen.TinyDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93D8DCDC2831F1A60046AAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = 56V747V83R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mercen.TinyDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93D8DCDE2831F1A60046AAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56V747V83R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mercen.TinyDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyDiary.app/TinyDiary";
+			};
+			name = Debug;
+		};
+		93D8DCDF2831F1A60046AAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56V747V83R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mercen.TinyDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyDiary.app/TinyDiary";
+			};
+			name = Release;
+		};
+		93D8DCE12831F1A60046AAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56V747V83R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mercen.TinyDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyDiary;
+			};
+			name = Debug;
+		};
+		93D8DCE22831F1A60046AAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56V747V83R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mercen.TinyDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D8DCB12831F1A50046AAF2 /* Build configuration list for PBXProject "TinyDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D8DCD82831F1A60046AAF2 /* Debug */,
+				93D8DCD92831F1A60046AAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D8DCDA2831F1A60046AAF2 /* Build configuration list for PBXNativeTarget "TinyDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D8DCDB2831F1A60046AAF2 /* Debug */,
+				93D8DCDC2831F1A60046AAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D8DCDD2831F1A60046AAF2 /* Build configuration list for PBXNativeTarget "TinyDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D8DCDE2831F1A60046AAF2 /* Debug */,
+				93D8DCDF2831F1A60046AAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D8DCE02831F1A60046AAF2 /* Build configuration list for PBXNativeTarget "TinyDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D8DCE12831F1A60046AAF2 /* Debug */,
+				93D8DCE22831F1A60046AAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93D8DCAE2831F1A50046AAF2 /* Project object */;
+}
